@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+        <title></title>
+		
+        <link rel="stylesheet" href="./iconfont.css"/>
+        <link rel="stylesheet" href="./font.css"/>
+        <link rel="stylesheet" href="./style.css"/>
+		<link rel="stylesheet" href="./mui.css"/>
+		
+		<script src="./jquery-3.3.1/jquery-3.3.1.min.js"></script>
+		<script src="./demo.js"></script>
+		<!-- <script src="./demoCopy.js"></script> -->
+		<!-- <script type="text/javascript">
+			$(function(){
+				//答案点击
+				$(".options").click(function(){
+					var val=$(this).attr("val");     //题目答案
+					var ids=$(this).attr("ids");	 //题目编号
+					$("li[ids="+ids+"]").removeClass("click");
+					$(this).addClass("click");
+					$("#QuestionA"+ids).val(val);
+					// last()
+				});
+			});
+	    </script>
+        <script type="text/javascript">
+             pushHistory(); 
+             window.addEventListener("popstate", function(e) { 
+				pushHistory();
+			 }, false); 
+			 function pushHistory() { 
+				var state = { 
+					title:"title", 
+					url:"#"
+				}; 
+				window.history.pushState(state, "title", "#"); 
+			} 
+	   </script> -->
+    </head>
+    <body>
+	     <!-- <header>
+			<div class="titlebar reverse" >
+			   <div >
+					<i class="iconfont">&#xe639;</i>
+					<i style="color:#ffffff;font-size:20px;font-weight:bold;margin-left:10px;">左右滑动翻题</i>
+			   </div>
+			</div>
+		</header> -->
+		<article id="leftTabBox">
+		<div class="bd" id="bd12">
+			<div class="test" style="margin-top:10px;">
+			   <div class="test_con"><!-- 动态添加style样式 -->
+			      <div class="item" style="height: 600px;overflow: auto;">
+				     <div class="tit">
+					    <span>1</span>
+						<input type="hidden" id="1" value="1"></input>ask的技法卢卡斯埃里克森大家分厘卡即使灯笼裤飞机啊离开阿里山扩大解释的飞机喀拉
+						ask的技法卢卡斯埃里克森大家分厘卡即使灯笼裤飞机啊离开阿里山扩大解释的飞机喀拉
+						ask的技法卢卡斯埃里克森大家分厘卡即使灯笼裤飞机啊离开阿里山扩大解释的飞机喀拉
+						ask的技法卢卡斯埃里克森大家分厘卡即使灯笼裤飞机啊离开阿里山扩大解释的飞机喀拉
+						ask的技法卢卡斯埃里克森大家分厘卡即使灯笼裤飞机啊离开阿里山扩大解释的飞机喀拉
+						ask的技法卢卡斯埃里克森大家分厘卡即使灯笼裤飞机啊离开阿里山扩大解释的飞机喀拉
+						ask的技法卢卡斯埃里克森大家分厘卡即使灯笼裤飞机啊离开阿里山扩大解释的飞机喀拉
+						ask的技法卢卡斯埃里克森大家分厘卡即使灯笼裤飞机啊离开阿里山扩大解释的飞机喀拉
+						ask的技法卢卡斯埃里克森大家分厘卡即使灯笼裤飞机啊离开阿里山扩大解释的飞机喀拉
+					 </div>
+					 <div class="item_con">
+					    <div class="answ">
+						   <input type='hidden' name='QuestionA1' class='answ' id='QuestionA1' value='' />
+						   <ul> 
+							  <li class='options' ids='1' val='答案A'><i>阿斯顿卢卡斯埃里克森大介绍了扩大飞机啊螺丝扣搭街
+								ask的技法卢卡斯埃里克森大家分厘卡即使灯笼裤飞机啊离开阿里山扩大解释的飞机喀拉ask的技法卢卡斯埃里克森大家分厘卡即使灯笼裤飞机啊离开阿里山扩大解释的飞机喀拉坊拉萨的飞发生</i></li>
+							  <li class='options' ids='1' val='答案B'><i>噶首发式地方风味亲热啊手扣搭街坊
+								ask的技法卢卡斯埃里克森大家分厘卡即使灯笼裤飞机啊离开阿里山扩大解释的飞机喀拉ask的技法卢卡斯埃里克森大家分厘卡即使灯笼裤飞机啊离开阿里山扩大解释的飞机喀拉拉点发射点</i></li>
+							  <li class='options' ids='1' val='答案C'><i>啊手动机喀拉喀什角动量反馈艾力克
+								ask的技法卢卡斯埃里克森大家分厘卡即使灯笼裤飞机啊离开阿里山扩大解释的飞机喀拉ask的技法卢卡斯埃里克森大家分厘卡即使灯笼裤飞机啊离开阿里山扩大解释的飞机喀拉斯酱豆腐立刻卡卡介绍了扩大飞机啊螺丝扣搭街坊拉萨的飞阀</i></li>
+							  <li class='options' ids='1' val='答案D'><i>答给犬瘟热卡卡介绍了扩大飞机啊螺丝扣搭街坊拉萨的飞发生大法师的地方</i></li>
+							</ul>
+						</div>
+					</div><!--item_con结束-->
+				</div><!--item结束-->
+			 </div><!--test_con结束-->
+		  </div><!--test结束-->
+		  <div class="test" style="margin-top:10px;">
+			   <div class="test_con">
+			      <div class="item" style="height: 600px;overflow: auto;">
+				     <div class="tit">
+					    <span>2</span>
+						<input type="hidden" id="2" value='2'></input>啊科技时代风口浪尖阿斯顿ask的技法卢卡斯埃里克森大家分厘卡即使灯笼裤飞机啊离开阿里山扩大解释的飞机喀拉ask的技法卢卡斯埃里克森大家分厘卡即使灯笼裤飞机啊离开阿里山扩
+						ask的技法卢卡斯埃里克森大家分厘卡即使灯笼裤飞机啊离开阿里山扩大解释的飞机喀拉大解释的飞机喀拉ask的技法卢卡斯
+						ask的技法卢卡斯埃里克森大家分厘卡即使灯笼裤飞机啊离开阿里山扩大解释的飞机喀拉埃里克森大家分厘卡即使灯笼裤飞机啊离开阿里山扩大解释的飞机喀拉
+					 </div>
+					 <div class="item_con">
+					    <div class="answ">
+						   <input type='hidden' name='QuestionA2' class='answ' id='QuestionA2' value='' />
+						   <ul> 
+							  <li class='options' ids='2' val='答案A'><i>嘎斯ask的技法卢卡斯埃里克森大家分厘卡即使灯笼裤飞机啊离开阿里山扩大解释的飞机喀拉
+								ask的技法卢卡斯埃里克森大家分厘卡即使灯笼裤飞机啊离开阿里山扩大解释的飞机喀拉打多少分</i></li>
+							  <li class='options' ids='2' val='答案B'><i>为发射ask的技法卢卡斯埃里克森大家分厘卡即使灯笼裤飞机啊离开阿里山扩大解释的飞机喀拉
+								ask的技法卢卡斯埃里克森大家分厘卡即使灯笼裤飞机啊离开阿里山扩大解释的飞机喀拉点发射点</i></li>
+							  <li class='options' ids='2' val='答案C'><i>还是挺高ask的技法卢卡斯埃里克森大家分厘卡即使灯笼裤飞机啊离开阿里山扩大解释的飞机喀拉
+								ask的技法卢卡斯埃里克森大家分厘卡即使灯笼裤飞机啊离开阿里山扩大解释的飞机喀拉的噶士大夫</i></li>
+							  <li class='options' ids='2' val='答案D'><i>啊实打实ask的技法卢卡斯埃里克森大家分厘卡即使灯笼裤飞机啊离开阿里山扩大解释的飞机喀拉
+								ask的技法卢卡斯埃里克森大家分厘卡即使灯笼裤飞机啊离开阿里山扩大解释的飞机喀拉的范围</i></li>
+							</ul>
+						</div>
+					</div><!--item_con结束-->
+				</div><!--item结束-->
+			 </div><!--test_con结束-->
+		  </div><!--test结束-->
+		  <div class="test" style="margin-top:10px;">
+			   <div class="test_con">
+			      <div class="item" style="height: 600px;overflow: auto;">
+				     <div class="tit">
+					    <span>3</span>
+						<input type="hidden" id="3" value="3"></input>嘎斯到底发生
+					 </div>
+					 <div class="item_con">
+					    <div class="answ">
+						   <input type='hidden' name='QuestionA3' class='answ' id='QuestionA3' value='' />
+						   <ul> 
+							  <li class='options' ids='3' val='答案A'><i>韩国人发生的</i></li>
+							  <li class='options' ids='3' val='答案B'><i>啊tears打法</i></li>
+							  <li class='options' ids='3' val='答案C'><i>是噶范德萨发</i></li>
+							  <li class='options' ids='3' val='答案D'><i>案说法为发士大夫</i></li>
+							</ul>
+						</div>
+					</div><!--item_con结束-->
+				</div><!--item结束-->
+			 </div><!--test_con结束-->
+		  </div><!--test结束-->
+		  <div class="test" style="margin-top:10px;">
+			   <div class="test_con">
+			      <div class="item">
+				     <div class="tit">
+					    <span>4</span>
+						<input type="hidden" id="4" value="4"></input>尬的首发式地方
+					 </div>
+					 <div class="item_con">
+					    <div class="answ">
+						   <input type='hidden' name='QuestionA4' class='answ' id='QuestionA4' value='' />
+						   <ul> 
+							  <li class='options' ids='4' val='答案A'><i>阿尔法EWFASF</i></li>
+							  <li class='options' ids='4' val='答案B'><i>GERWFASDFA </i></li>
+							  <li class='options' ids='4' val='答案C'><i>阿尔为发射点发射点</i></li>
+							  <li class='options' ids='4' val='答案D'><i>阿尔文发射东风为发射点发射点</i></li>
+							</ul>
+						</div>
+					</div><!--item_con结束-->
+				</div><!--item结束-->
+			 </div><!--test_con结束-->
+		  </div><!--test结束-->
+		  <div class="test" style="margin-top:10px;">
+			   <div class="test_con">
+			      <div class="item">
+				     <div class="tit">
+					    <span>5</span>
+						<input type="hidden" id="5" value="5"></input>去维护各方
+					 </div>
+					 <div class="item_con">
+					    <div class="answ">
+						   <input type='hidden' name='QuestionA5' class='answ' id='QuestionA5' value='' />
+						   <ul> 
+							  <li class='options' ids='5' val='答案A'><i>违法所得范围</i></li>
+							  <li class='options' ids='5' val='答案B'><i>维护广大和一体化</i></li>
+							  <li class='options' ids='5' val='答案C'><i>如愿考入桃园景福宫几乎覆盖</i></li>
+							  <li class='options' ids='5' val='答案D'><i>儿童以及各个黄金分割</i></li>
+							</ul>
+						</div>
+					</div><!--item_con结束-->
+				</div><!--item结束-->
+			 </div><!--test_con结束-->
+		  </div><!--test结束-->
+		  <div class="test" style="margin-top:10px;">
+			   <div class="test_con">
+			      <div class="item">
+				     <div class="tit">
+					    <span>6</span>
+						<input type="hidden" id="6" value="6"></input>过去问发士大夫
+					 </div>
+					 <div class="item_con">
+					    <div class="answ">
+						   <input type='hidden' name='QuestionA6' class='answ' id='QuestionA6' value='' />
+						   <ul> 
+							  <li class='options' ids='6' val='答案A'><i>儿童已经发给机会</i></li>
+							  <li class='options' ids='6' val='答案B'><i>他已经复古怀旧风格</i></li>
+							  <li class='options' ids='6' val='答案C'><i>桃园景福宫计划</i></li>
+							  <li class='options' ids='6' val='答案D'><i>风格和甲方</i></li>
+							</ul>
+						</div>
+					</div><!--item_con结束-->
+				</div><!--item结束-->
+			 </div><!--test_con结束-->
+		  </div><!--test结束-->
+		   <div class="test" style="margin-top:10px;">
+			   <div class="test_con">
+			      <div class="item">
+				     <div class="tit">
+					    <span>7</span>
+						<input type="hidden" id="7" value="7"></input>微软放弃违法所得
+					 </div>
+					 <div class="item_con">
+					    <div class="answ">
+						   <input type='hidden' name='QuestionA7' class='answ' id='QuestionA7' value='' />
+						   <ul> 
+							  <li class='options' ids='7' val='答案A'><i>儿童已经发给机会法国海军</i></li>
+							  <li class='options' ids='7' val='答案B'><i>儿童以及法国海军</i></li>
+							  <li class='options' ids='7' val='答案C'><i>儿童以及法国海军</i></li>
+							  <li class='options' ids='7' val='答案D'><i>恩同意甲方根据风格和甲方规划局</i></li>
+							</ul>
+						</div>
+					</div><!--item_con结束-->
+				</div><!--item结束-->
+			 </div><!--test_con结束-->
+		  </div><!--test结束-->
+		  <div class="test" style="margin-top:10px;">
+			   <div class="test_con">
+			      <div class="item">
+				     <div class="tit">
+					    <span>8</span>
+						<input type="hidden" id="8" value="8"></input>犬瘟热发士大夫
+					 </div>
+					 <div class="item_con">
+					    <div class="answ">
+						   <input type='hidden' name='QuestionA8' class='answ' id='QuestionA8' value='' />
+						   <ul> 
+							  <li class='options' ids='8' val='答案A'><i>房管局会让他已经发给</i></li>
+							  <li class='options' ids='8' val='答案B'><i>反抗法国工会经费</i></li>
+							  <li class='options' ids='8' val='答案C'><i>而他也飞过的痕迹</i></li>
+							  <li class='options' ids='8' val='答案D'><i>卡特已经发给机会</i></li>
+							</ul>
+						</div>
+					</div><!--item_con结束-->
+				</div><!--item结束-->
+			 </div><!--test_con结束-->
+		  </div><!--test结束-->
+		  <div class="test" style="margin-top:10px;">
+			   <div class="test_con">
+			      <div class="item">
+				     <div class="tit">
+					    <span>9</span>
+						<input type="hidden" id="9" value="9"></input>曲蔚然撒旦发射点
+					 </div>
+					 <div class="item_con">
+					    <div class="answ">
+						   <input type='hidden' name='QuestionA9' class='answ' id='QuestionA9' value='' />
+						   <ul> 
+							  <li class='options' ids='9' val='答案A'><i>发个邮件发给机会</i></li>
+							  <li class='options' ids='9' val='答案B'><i>而他也记得发货</i></li>
+							  <li class='options' ids='9' val='答案C'><i>如同开发跟进回访跟进</i></li>
+							  <li class='options' ids='9' val='答案D'><i>而德国的风格和大风和</i></li>
+							</ul>
+						</div>
+					</div><!--item_con结束-->
+				</div><!--item结束-->
+			 </div><!--test_con结束-->
+		  </div><!--test结束-->
+		   <div class="test" style="margin-top:10px;">
+			   <div class="test_con">
+			      <div class="item">
+				     <div class="tit">
+					    <span>10</span>
+						<input type="hidden" id="10" value="10"></input>为发射点发射点
+					 </div>
+					 <div class="item_con">
+					    <div class="answ">
+						   <input type='hidden' name='QuestionA10' class='answ' id='QuestionA10' value='' />
+						   <ul> 
+							  <li class='options' ids='10' val='答案A'><i>人口地方教会的发货</i></li>
+							  <li class='options' ids='10' val='答案B'><i>开发工具活动分工和</i></li>
+							  <li class='options' ids='10' val='答案C'><i>人挺好的风格和</i></li>
+							  <li class='options' ids='10' val='答案D'><i>时尚风格和对方</i></li>
+							</ul>
+						</div>
+					</div><!--item_con结束-->
+				</div><!--item结束-->
+			 </div><!--test_con结束-->
+		  </div><!--test结束-->
+	   </div>
+	   <!-- <div class="clear"></div> -->
+    </article>
+    <!-- <script src="./mui.min.js"></script> -->
+    <script type="text/javascript"> 
+	</script>
+	<script type="text/javascript">
+			TouchSlide({slideCell:"#leftTabBox"});
+			console.log('设备的高度',$(document.body).height())
+			$(".bd").css('height',$(document.body).height())
+			$(".item").css('height',$(document.body).height())
+		$(function(){
+			//答案点击
+			$(".options").click(function(){
+				var val=$(this).attr("val");     //题目答案
+				var ids=$(this).attr("ids");	 //题目编号
+				$("li[ids="+ids+"]").removeClass("click");
+				$(this).addClass("click");
+				$("#QuestionA"+ids).val(val);
+				// 获取设备的宽度
+				console.log('宽度',$(document.body).width())
+				var scrWid = $(document.body).width()
+				// 获取translate的值
+				var bdData = $(".bd").css('transform').replace(/[^0-9\-,]/g,'')
+				var bdArr = bdData.split(',')
+				var res = Math.abs(bdArr[4])
+				console.log('值',bdArr);
+				var sliceWid = parseFloat(scrWid) + parseFloat(res)
+				console.log('sliceWid',res,sliceWid)
+				setTimeout(function(){
+					// 这两个函数调用的时候必须一起调用
+					translate(sliceWid)
+					var num = 333
+					last(num);
+				})
+			});
+			var translate = function(scrWid){
+				console.log('aaa',scrWid)
+				$(".bd").css("transform","translate(-"+scrWid+"px, 0px)")
+				$(".bd").css('transition-duration','0.3s')
+			}
+		});
+	</script>
+	<script type="text/javascript">
+		 pushHistory(); 
+		 window.addEventListener("popstate", function(e) { 
+			pushHistory();
+		 }, false); 
+		 function pushHistory() { 
+			var state = { 
+				title:"title", 
+				url:"#"
+			}; 
+			window.history.pushState(state, "title", "#"); 
+		} 
+   </script>
+   <!-- <script type="text/javascript"> 
+		TouchSlide({slideCell:"#leftTabBox"});
+	</script> -->
+   </body>
+</html>
